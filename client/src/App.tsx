@@ -108,7 +108,7 @@ export default function App() {
             </button>
             <div
               onClick={() => setShowAddBox(false)}
-              className="absolute top-5 right-5 rounded-full p-2 hover:bg-gray-300"
+              className="absolute top-5 right-5 cursor-pointer rounded-full p-2 hover:bg-gray-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

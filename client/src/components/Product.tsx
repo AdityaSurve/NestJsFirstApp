@@ -49,7 +49,7 @@ const Product: React.FC<ProductProps> = ({
       </div>
       <div className="flex flex-row justify-between">
         <h1 className="font-bold text-xl">{name}</h1>
-        <p className="text-sm text-gray-700 font-semibold">{price}</p>
+        <p className="text-sm text-gray-700 font-semibold">₹ {price}</p>
       </div>
       <p className="text-sm text-gray-500 italic">{description}</p>
     </div>
